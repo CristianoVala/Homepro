@@ -336,6 +336,7 @@ html,body
     gap: 1rem;
     margin-bottom:1rem;
     padding: 1rem 1rem;
+    flex-direction: row;
 }
 .gallery1{
     display:flex;
@@ -354,10 +355,21 @@ html,body
 }
 .gallery__img{
     width: 20vw;
-    hegiht: 20vw;
+    height: 20vw;
     background-size: cover;
 }
-
+@media screen and (max-width: 768px){
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery__img{
+        width:80vw;
+        height:80vw;
+    }
+    .gallery1{
+        display:none;
+    }
+}
 /* Contact page */
 .email{
     background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0, 0.2)),
