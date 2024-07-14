@@ -13,6 +13,11 @@
     border: 3px var(--red);
     margin: 0rem 1rem;
     width: 90vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
 }
 .link:hover{
     padding:1rem 4rem;
