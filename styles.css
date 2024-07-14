@@ -363,7 +363,7 @@ html,body
 }
 .gallery__img{
     width: 20vw;
-    height: 20vw;
+    height: auto;
     background-size: cover;
 }
 @media screen and (max-width: 768px){
@@ -372,7 +372,7 @@ html,body
     }
     .gallery__img{
         width:80vw;
-        height:80vw;
+        height:auto;
     }
     .gallery1{
         display:none;
