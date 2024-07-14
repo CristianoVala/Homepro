@@ -1,3 +1,31 @@
+/*qrcode*/
+.links{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:2rem;
+}
+.link{
+    padding:1rem 4rem;
+    border-radius: 2rem;
+    border: 3px var(--red);
+    margin: 0rem 1rem;
+    width: 90vw;
+}
+.link:hover{
+    padding:1rem 4rem;
+    border-radius: 2rem;
+    border: 3px black;
+    margin: 0rem 1rem;
+    width: 90vw;
+}
+.links a{ 
+    font-size: 2rem;
+    color: black;
+}
+
 :root{
     --black:#000000;
     --white:#fff;
