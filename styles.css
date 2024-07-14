@@ -173,7 +173,6 @@ html,body
     font-size: 1.3rem;
     padding: 1.3rem 3.3rem;
 }
-/*about*/
 /* about */
 .about h1{
     padding: 1rem calc((100vw - 1800px) / 2);
@@ -299,12 +298,11 @@ html,body
     transition: 0.3s ease;
 }
 .service:hover{
-    width: 60vw;
     .highlight{
         width:100%;
         height:100%;
         padding:1rem;
-        box-shadow: 10px 10px 20px rgba(255, 56, 56, 0.9);
+        box-shadow: 10px 10px 20px rgba(193, 154, 107, 0.9);
     }
     .services__container h1{
         font-size: 1.8rem;
