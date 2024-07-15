@@ -29,7 +29,7 @@
     width: 95vw;
 }
 .links a{ 
-    font-size: 2rem;
+    clamp(2rem, 8vw, 6rem);
     color: black;
 }
 .titles{
@@ -38,7 +38,7 @@
     justify-content:center;
     align-items:center;
     text-align:center;
-    font-size: 4rem;
+    clamp(3rem, 8vw, 7rem);
     color: var(--red);
     flex-direction:column;
     margin: 1rem;
