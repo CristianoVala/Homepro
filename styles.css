@@ -6,6 +6,8 @@
     align-items:center;
     flex-direction:column;
     gap:2rem;
+    margin-top: 2rem;
+    margin-botton: 2rem;
 }
 .link{
     padding:1rem 4rem;
@@ -22,9 +24,9 @@
 .link:hover{
     padding:1rem 4rem;
     border-radius: 2rem;
-    border: 3px black;
+    border: 3px black solid;
     margin: 0rem 1rem;
-    width: 90vw;
+    width: 95vw;
 }
 .links a{ 
     font-size: 2rem;
