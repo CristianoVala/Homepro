@@ -8,6 +8,7 @@
     gap:2rem;
     margin-top: 2rem;
     margin-botton: 2rem;
+    padding: 1rem 1rem;
 }
 .link{
     padding:1rem 4rem;
@@ -41,7 +42,8 @@
     clamp(3rem, 8vw, 7rem);
     color: var(--red);
     flex-direction:column;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 :root{
     --black:#000000;
