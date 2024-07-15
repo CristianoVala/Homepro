@@ -32,7 +32,17 @@
     font-size: 2rem;
     color: black;
 }
-
+.titles{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size: 4rem;
+    color: var(--red);
+    flex-direction:column;
+    margin: 1rem;
+}
 :root{
     --black:#000000;
     --white:#fff;
