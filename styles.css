@@ -322,7 +322,14 @@ html,body
         object-fit: cover;
     }
 }
-
+.header{
+    margin-top:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    width:100vw;
+}
 /*Services*/
 .services__container{
     display: flex;
