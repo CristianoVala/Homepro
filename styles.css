@@ -335,6 +335,7 @@ html,body
     font-style: normal;
     color: black;
     text-transform: uppercase;
+    padding: 1rem;
 }
 .header b{
     color: var(--red);
