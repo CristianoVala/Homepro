@@ -34,8 +34,8 @@
     color: black;
 }
 .titles__img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     padding:1rem;
     margin: 1rem;
 }
@@ -90,8 +90,8 @@ html,body
     font-size: 1rem;
 }
 .logoimg{
-    height:70px;
-    width:70px;
+    height:60px;
+    width:60px;
     margin-left:1rem;
 }
 .navbar__link{
