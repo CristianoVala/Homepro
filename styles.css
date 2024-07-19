@@ -33,9 +33,9 @@
     clamp(2rem, 4vw, 4rem);
     color: black;
 }
-.titles__img{
-    width: 100px;
-    height: 100px;
+.title__img{
+    width: 200px;
+    height: 200px;
     padding:1rem;
     margin: 1rem;
 }
