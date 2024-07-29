@@ -611,6 +611,7 @@ span{
     }
     .footer__links{
         padding: 1rem;
+        text-align: center;
     }
 }
 .reveal{
