@@ -614,6 +614,7 @@ span{
     .footer__links{
         padding: 1rem;
         text-align: center;
+        align-items: center;
     }
 }
 .reveal{
