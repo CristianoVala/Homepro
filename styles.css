@@ -425,6 +425,7 @@ html,body
     flex-direction: row;
 }
 .project{
+    width:20vw;
     display:flex;
     justify-content:center;
     align-items:center;
