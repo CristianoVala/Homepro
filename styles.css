@@ -88,12 +88,13 @@ html,body
     display:flex;
     align-items:center;
     justify-content:center;
-    gap: 0.2rem;
+    gap: 0.5rem;
 }
 .navlog h1{
     color: var(--red);
     text-decoration: none;
     font-size: 1rem;
+    margin-top: 0.5rem;
 }
 .navbar__logo{
     color: var(--red);
