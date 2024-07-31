@@ -503,6 +503,9 @@ html,body
     .Project__title{
         font-size: 1rem;
     }
+    .project{
+        width:80vw;
+    }
 }
 /* Contact page */
 .email{
