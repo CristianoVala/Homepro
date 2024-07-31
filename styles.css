@@ -490,16 +490,16 @@ html,body
         display:none;
     }
     /*Portfolio*/
-.portfolio{
-    flex-direction: column;
-}
-.project__img{
-    width:80vw;
-    height:auto;
-}
-.Project__title{
-    font-size: 1rem;
-}
+    .portfolio{
+        flex-direction: column;
+    }
+    .project__img{
+        width:80vw;
+        height:auto;
+    }
+    .Project__title{
+        font-size: 1rem;
+    }
 }
 /* Contact page */
 .email{
