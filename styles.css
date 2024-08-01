@@ -438,7 +438,7 @@ html,body
     height: auto;
     background-size: cover;
 }
-.project__image:hover{
+.project__img:hover{
     width: 30vw;
     height: auto;
 }
@@ -504,7 +504,7 @@ html,body
         width:80vw;
         height:auto;
     }
-    .project__image:hover{
+    .project__img:hover{
         width: 80vw;
         height: auto;
     }
