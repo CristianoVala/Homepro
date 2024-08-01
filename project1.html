@@ -42,9 +42,63 @@
             <img class="project__img" src="./images/project1.jpg"/>
         </div>
       <div class="project">
-            <img class="project__img" src="./images/project2.jpg"/>
+            <img class="project__img" src="./images/project1-2.jpg"/>
         </div>
       <div class="project">
-            <img class="project__img" src="./images/project3.jpg"/>
+            <img class="project__img" src="./images/project1-3.jpg"/>
         </div>
     </div>
+ <!--Footer section-->
+    <div id="footer" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>HPR&R</h1>
+                <p>CEO & Director of Operations</p>
+                <p>Dylan Sergio</p>
+                <p id="phone">(416) 473-1113</p>
+                <p id="email"></p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="/#Contacts" class="footer__link">Contact</a>
+                <a href="/#Contacts" class="footer__link">Support</a>
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="https://www.instagram.com/homepro.repairs.renos/" class="footer__link">Instagram</a>
+                <a href="https://www.yelp.ca/biz/home-pro-repairs-and-renovations-toronto?uid=13YY_WQ4LUevqTyVLXvCcQ&utm_campaign=www_business_share_popup&utm_medium=copy_link&utm_source=(direct)" class="footer__link">Yelp</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Services</h2>
+                <a href="/#Services" class="footer__link">Pricing</a>
+                <a href="/#Services" class="footer__link">Features</a>
+            </div>
+        </div>
+     <a href="https://dynamic-technologies.ca"><img class="Dtech__tag" src="./images/Dtech tag.png" alt=" " class="d-tech"/></a>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
