@@ -438,8 +438,8 @@ html,body
     height: auto;
     background-size: cover;
 }
-.project__img:hover{
-    width: 30vw;
+.project:hover{
+    width: 25vw;
     height: auto;
 }
 .Project__title{
@@ -504,9 +504,8 @@ html,body
         width:80vw;
         height:auto;
     }
-    .project__img:hover{
+    .project:hover{
         width: 80vw;
-        height: auto;
     }
     .Project__title{
         font-size: 1rem;
