@@ -438,6 +438,10 @@ html,body
     height: auto;
     background-size: cover;
 }
+.project__image:hover{
+    width: 30vw;
+    height: auto;
+}
 .Project__title{
     font-size: 1.3rem;
     margin-top: 0.5rem;
@@ -499,6 +503,10 @@ html,body
     .project__img{
         width:80vw;
         height:auto;
+    }
+    .project__image:hover{
+        width: 80vw;
+        height: auto;
     }
     .Project__title{
         font-size: 1rem;
