@@ -441,6 +441,7 @@ html,body
 .project:hover{
     width: 25vw;
     height: auto;
+    box-shadow: 10px 10px 20px rgba(193, 154, 107, 0.9);
 }
 .Project__title{
     font-size: 1.3rem;
