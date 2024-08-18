@@ -33,6 +33,15 @@
     clamp(2rem, 4vw, 4rem);
     color: black;
 }
+.QR{
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    padding: 1rem;
+}
 .title__img{
     width: 200px;
     height: 200px;
