@@ -154,6 +154,9 @@ html,body
 }
         
 @media screen and (max-width: 768px){
+    .QR{
+     display: none;
+    }
     .navbar__menu{
         flex-direction: column;
         align-items: center;
