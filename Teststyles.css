@@ -57,7 +57,7 @@ header {
 
 /* Hero Section */
 .hero {
-  background: url("https://via.placeholder.com/1600x600") center/cover no-repeat;
+  background: url("./images/Hero.png") center/cover no-repeat;
   color: #fff;
   height: 90vh;
   display: flex;
