@@ -57,7 +57,8 @@ header {
 
 /* Hero Section */
 .hero {
-  background: url("./images/Hero.png") center/cover no-repeat;
+  background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0, 0.2)),
+    url("./images/Hero.png") center/cover no-repeat;
   color: #fff;
   height: 90vh;
   display: flex;
