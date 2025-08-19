@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://homepro-co.ca",
+      "logo": "https://homepro-co.ca/images/Dylan Logo.png"
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Pro Repairs and Renovations</title>
+    <link rel="Icon" href="./images/Dylan Logo.png" type="image/png">
+    <link rel="stylesheet" href="Teststyles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+  
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Home Pro</div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Home Pro Repairs & Renovations</h1>
+      <p>Quality repairs, dependable service, and elegant renovations for your home.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <h3>Home Repairs</h3>
+        <p>From small fixes to major improvements, we keep your home in top shape.</p>
+      </div>
+      <div class="service-card">
+        <h3>Renovations</h3>
+        <p>Modern, elegant, and functional upgrades tailored to your lifestyle.</p>
+      </div>
+      <div class="service-card">
+        <h3>Custom Projects</h3>
+        <p>Unique designs and craftsmanship to make your vision a reality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <h2>Our Portfolio</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200" alt="Project 1">
+      <img src="https://via.placeholder.com/300x200" alt="Project 2">
+      <img src="https://via.placeholder.com/300x200" alt="Project 3">
+      <img src="https://via.placeholder.com/300x200" alt="Project 4">
+      <img src="https://via.placeholder.com/300x200" alt="Project 5">
+      <img src="https://via.placeholder.com/300x200" alt="Project 6">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Home Pro Repairs and Renovations</strong>, we are dedicated to delivering
+      quality craftsmanship with dependable service. Our mission is to provide
+      elegant, lasting improvements that make your home truly yours.
+    </p>
+    <p>
+      Meet <strong>Dylan Sergio</strong>, our Director of Operations. With years of experience in
+      home improvement and renovations, Dylan ensures that every project is
+      completed with precision, professionalism, and a personal touch.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>Ready to start your next home project? Get in touch with us today!</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Home Pro Repairs and Renovations. All rights reserved.</p>
+  </footer>
+
+  <!-- Script for Hamburger Menu -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
