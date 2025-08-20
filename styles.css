@@ -495,6 +495,7 @@ html,body
 
 /* Contact page */
 .Contact__Container{
+  background: #222;
   height: 110vh;
   width: 100vw;
   display:flex;
@@ -534,7 +535,7 @@ html,body
   border: none;
   outline: none;
   padding-left: 2.5rem;
-  color: white;
+  color: black;
   border-radius: 2rem;
 }
 .contact-left textarea{
