@@ -63,7 +63,7 @@
 :root{
     --black:#000000;
     --white:#fff;
-    --red:rgb(197, 184, 140);
+    --red:rgb(225, 193, 110);
 }
 *{
     box-sizing: border-box;
