@@ -87,7 +87,9 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     width: 100%;
     outline: var(--red);
     outline-width: 0.4rem;
