@@ -135,32 +135,24 @@
   </div>
  </div>
   <!--Contacts Section-->
-    <div class="email" id="Contacts">
-        <div class="email__content reveal">
-            <h1>Contact Us Today</h1>
-            <p>Call (416) 473-1113</p>
-            <p>Or</p>
-            <p>Sign up now to receive a quote</p>
-            <div class="form__wrap">
-                <form  action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="58c956a0-a557-4ca3-8ff3-a4a5fa862fb0">
-                    <input type="text" name="name" placeholder="Name" required>
-                    <input type="email" name="email" placeholder="Enter your email" required>
-                    <input type="phone" name="phone" placeholder="Enter your phone number" required>
-                    <select id="service" class="form-control" name="Service" required>
-                      <option value="Select" type="placeholder"> --Select Service--</option>
-                      <option value="Exterior Remodeling">Exterior Remodeling</option>
-                      <option value="Interior Remodeling">Interior Remodeling</option>
-                      <option value="Concrete & Masonry">Concrete & Masonry</option>
-                      <option value="Design">General Design</option>
-                     <option value="Detached Garage Construction">Detached Garage Construction</option>
-                       <option value="General Landscaping">General Landscaping</option>
-                    </select>
-                   <input id="service" class="form-control" name="Message" placeholder="Enter a short message detailing what you need">
-                    <button class="button" type="submit">Submit</button>
-                </form>
+    <!--Contacts Section-->
+    <div class="Contact__Container" id="ContactUs">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="Contact__Title">
+                <h2>Contact Us Today</h2>
+                <p>Fill out the form below</p>
+                <p>Or call us at (416) 473-1113</p>
             </div>
-         </div>
+            <input type="hidden" name="access_key" value="58c956a0-a557-4ca3-8ff3-a4a5fa862fb0">
+            <input type="text" name="name" placeholder="Name" class="Contact__input" required>
+            <input type="email" name="email" placeholder="Enter your email" class="Contact__input" required>
+            <input type="phone" name="phone" placeholder="Enter your phone number#" class="Contact__input">
+            <textarea name="message" placeholder="Enter a short message detailing what you need" class="Contact__input" required></textarea>
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2863.101006677163!2d-79.863146!3d44.143162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aeee4ca8f9261%3A0x1f3d4ecb8aaa805c!2s10%20Alderson%20Ct%2C%20Alliston%2C%20ON%20L9R%202B7!5e0!3m2!1sen!2sca!4v1733510200407!5m2!1sen!2sca" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
  <div class="QR">
   <div class="header">
