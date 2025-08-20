@@ -107,6 +107,7 @@ header {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .service-card {
   background: #fff;
