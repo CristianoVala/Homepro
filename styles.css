@@ -425,7 +425,20 @@ html,body
     padding: 1rem;
     transition: 0.3s ease;
 }
+
 /* Portfolio Layout */
+
+/* Sections */
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
