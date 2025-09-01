@@ -89,6 +89,69 @@ header {
 .btn:hover {
   background: #e09c00;
 }
+/* Hide checkbox */
+.hide-offer {
+  display: none;
+}
+
+/* Special Offer Banner */
+.special-offer {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: #222;
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+  display: inline-block;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: relative;
+  animation: pulse 2s infinite;
+  text-align: center;
+}
+
+/* Close button */
+.close-offer {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.close-offer:hover {
+  color: #e63946;
+}
+
+/* Offer text styling */
+.special-offer h2 {
+  margin-bottom: 0.5rem;
+  color: #e63946;
+}
+.special-offer p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.offer-btn {
+  background: #e63946;
+  color: #fff;
+}
+.offer-btn:hover {
+  background: #c72b38;
+}
+
+/* Hide banner when checkbox is checked */
+.hide-offer:checked ~ .special-offer {
+  display: none;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 10px rgba(230,57,70,0.4); }
+  50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(230,57,70,0.6); }
+  100% { transform: scale(1); box-shadow: 0 0 10px rgba(230,57,70,0.4); }
+}
 
 /* Sections */
 .section {
