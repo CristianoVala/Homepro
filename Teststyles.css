@@ -117,24 +117,23 @@ header {
   right: 15px;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #555;
+  color: #222;
   cursor: pointer;
   transition: color 0.3s;
 }
 .close-offer:hover {
-  color: #d4af37; /* golden hover */
+  color: ##222; /* golden hover */
 }
 
 .special-offer h2 {
   margin-bottom: 0.5rem;
-  color: #d4af37; /* golden title */
+  color: ##222; /* golden title */
 }
 .special-offer p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 .offer-btn {
-  background: #d4af37; /* golden button */
   color: #222;
   font-weight: bold;
 }
