@@ -632,7 +632,7 @@ html,body
 .footer__linkIcon{
     text-decoration: none;
     color: var(--red);
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 0.5rem;
     transition: 0.3s ease-in-out;
     text-align: center;
