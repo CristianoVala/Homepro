@@ -89,6 +89,7 @@ header {
 .btn:hover {
   background: #e09c00;
 }
+
 /* Hide checkbox */
 .hide-offer {
   display: none;
@@ -121,36 +122,34 @@ header {
   transition: color 0.3s;
 }
 .close-offer:hover {
-  color: #e63946;
+  color: #d4af37; /* golden hover */
 }
 
-/* Offer text styling */
 .special-offer h2 {
   margin-bottom: 0.5rem;
-  color: #e63946;
+  color: #d4af37; /* golden title */
 }
 .special-offer p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 .offer-btn {
-  background: #e63946;
-  color: #fff;
+  background: #d4af37; /* golden button */
+  color: #222;
+  font-weight: bold;
 }
 .offer-btn:hover {
-  background: #c72b38;
+  background: #b9972f; /* darker gold hover */
 }
-
+/* Pulse animation */
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 10px rgba(212,175,55,0.4); }
+  50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(212,175,55,0.6); }
+  100% { transform: scale(1); box-shadow: 0 0 10px rgba(212,175,55,0.4); }
+}
 /* Hide banner when checkbox is checked */
 .hide-offer:checked ~ .special-offer {
   display: none;
-}
-
-/* Pulse animation */
-@keyframes pulse {
-  0% { transform: scale(1); box-shadow: 0 0 10px rgba(230,57,70,0.4); }
-  50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(230,57,70,0.6); }
-  100% { transform: scale(1); box-shadow: 0 0 10px rgba(230,57,70,0.4); }
 }
 
 /* Sections */
