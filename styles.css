@@ -412,16 +412,22 @@ html,body
     box-shadow: 10px 10px 20px rgba(193, 154, 107, 0.9);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     .service{
         width:100vw;
     }
     .info__container{
         width:100vw;
     }
+    .services__icon {
+        font-size: 5rem;
+        color: var(--red);
+        margin: 1rem 0;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
 }
 .services__icon {
-    font-size: 4rem;
+    font-size: 8rem;
     color: var(--red);
     margin: 1rem 0;
     transition: transform 0.3s ease, color 0.3s ease;
