@@ -396,6 +396,9 @@ html,body
 }
 
 .highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem;
     border-radius: 12px;
     transition: all 0.3s ease;
@@ -417,10 +420,11 @@ html,body
         width:100vw;
     }
 }
-.services__img{
-    width:250px;
-    padding: 1rem;
-    transition: 0.3s ease;
+.services__icon {
+    font-size: 4rem;
+    color: var(--red);
+    margin: 1rem 0;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 /* Portfolio Layout */
