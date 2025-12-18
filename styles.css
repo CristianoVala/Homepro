@@ -428,7 +428,7 @@ html,body
 }
 .services__icon {
     font-size: 8rem;
-    color: var(--red);
+    color: #222;
     margin: 1rem 0;
     transition: transform 0.3s ease, color 0.3s ease;
 }
