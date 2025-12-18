@@ -490,7 +490,7 @@ html,body
 
 /* ===== TESTIMONIALS SECTION ===== */
 .testimonials {
-    background: #f9f9f9;
+    background: #fff;
 }
 
 .testimonials h2 {
@@ -514,7 +514,7 @@ html,body
 
 /* Card */
 .testimonial__card {
-    background: #fff;
+    background: #f9f9f9;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
