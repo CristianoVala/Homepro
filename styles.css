@@ -367,6 +367,7 @@ html,body
 .header b{
     color: var(--red);
 }
+
 /*Services*/
 .services__container{
     display: flex;
@@ -385,12 +386,14 @@ html,body
     margin-top: 1rem;
 }
 .service{
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-bottom:1rem;
     margin-top:1rem;
     width: 50vw;
-    padding:1.5rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 15px;
 }
 .service:hover{
     .highlight{
@@ -398,16 +401,6 @@ html,body
         height:100%;
         padding:1rem;
         box-shadow: 10px 10px 20px rgba(193, 154, 107, 0.9);
-    }
-    .services__container h2{
-        font-size: 1.8rem;
-    }
-    .service__container p{
-        font-size: 1.3rem;
-    }
-    .services__img{
-        width:260px;
-        padding: 1rem;
     }
 }
 @media screen and (max-width: 768px){
